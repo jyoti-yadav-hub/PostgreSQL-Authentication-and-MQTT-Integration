@@ -1,0 +1,21 @@
+{
+  "name": "mqttdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start"
+  },
+  "author": "jyoti yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mqtt": "^5.7.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

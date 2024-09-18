@@ -1,0 +1,17 @@
+{
+  "Http": {
+    "Port": 4000
+  },
+  "Logging": {
+    "Path": "MQTT_Connection/Logs/"
+  },
+  "PG": {
+    "user": "your_db_user",
+    "host": "your_db_host",
+    "database": "your_db_name",
+    "password": "your_db_password",
+    "port": 5432
+  },
+  "Subscribe": false,
+  "Disconnect_Email_Interval_minute": "60"
+}
